@@ -1,0 +1,98 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.csdl
+*.msl
+*.ssdl
+ipch/
+obj/
+[Bb]in
+[Bb]in/[Dd]ebug*/
+[Bb]in/[Rr]elease*/
+[Bb]in/x86/[Dd]ebug*/
+[Bb]in/x86/[Rr]elease*/
+Ankh.NoLoad
+*.resources
+UpgradeLog*.*
+
+# Nuget packages
+src/packages/
+Source/packages/
+**/packages/
+
+# Web publish log
+*.Publish.xml
+
+#Tooling
+_ReSharper*/
+*.resharper
+_[Tt]eam[Cc]ity*/
+[Tt]est[Rr]esult*
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+# git byproduct files
+*.orig
+
+# Local build files
+output/
+
+# Terra build output files
+**/terra.txt
+**/terra_emailbody.txt
+
+# Dynamically generated css files
+**/public/styles/main.css
+
+# Dynamically generated model files
+**/public/build
+
+# Node modules
+**/node_modules
+
+# bower files
+*/**/bower_components
+
+# grunt files
+**/.nodemonignore
+
+# idea files
+# **/.idea/**
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/libraries/**
+**/.idea/dictionaries/
+**/.idea/inspectionProfiles/
+**/.idea/runConfigurations/
+**/.idea/scopes/
+**/.idea/jsLinters
+etc/dbrestore.bat
+src/.idea/Turner-Terra.iml
+src/.idea/deployment.xml
